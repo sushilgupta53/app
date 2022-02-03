@@ -14,7 +14,6 @@
     "@sap/xsenv": "^3",
     "@sap/xssec": "^3",
     "passport": "^0.4.1",
-
     "debug": "^4.3",
     "express": "^4"
   },
@@ -54,8 +53,7 @@
             }
           }
         }
-      }
-      ,
+      },
       "db": {
         "[production]": {
           "kind": "hana"
@@ -67,8 +65,7 @@
           "db",
           "srv"
         ]
-      }
-        ,
+      },
       "NearEarthObjectWebService": {
         "kind": "rest",
         "impl": "srv/external/NearEarthObjectWebService.js",
@@ -82,8 +79,7 @@
           }
         }
       }
-    }
-    ,
+    },
     "hana": {
       "deploy-format": "hdbtable"
     }
